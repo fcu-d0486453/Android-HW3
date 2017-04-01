@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:weightSum="1"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/up_but"
+        android:text="@string/up_but_text"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/web_but"
+        android:text="MyWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/l_but"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="㊧"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:gravity="center_horizontal"
+            android:text="@string/ya_hello"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/r_but"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="㊨"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageCover"
+        android:layout_width="278dp"
+        android:layout_height="227dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/cover" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="アイちゃん　ｶﾜ(・∀・)ｲｲ!!" />
+    <Button
+        android:id="@+id/next_but"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:text="@string/next_but_text"
+        android:layout_weight="0.01" />
+
+
+</LinearLayout>
+
+
